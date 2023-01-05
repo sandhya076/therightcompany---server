@@ -5,7 +5,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 
-mongoose
+const CONNECTION_URL = mongoose
   .connect(
     "mongodb+srv://sandhya:sandhya@cluster0.trov7.mongodb.net/?retryWrites=true&w=majority"
   )
